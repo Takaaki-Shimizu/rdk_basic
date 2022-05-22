@@ -31,6 +31,7 @@ export const taskSlice = createSlice({
     },
   },
 });
+// reducerの中身正常ではないため確認
 export const { newTask, completeTask, deleteTask } = taskSlice.actions;
 
 export const selectTasks = (state) => state.task.tasks;
